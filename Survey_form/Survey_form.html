@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <label>
+    <h1 id="title">Life</h1>
+    <p id="description">How's life treating you?</p>
+    <form id="survey-form">
+    <hr>
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+    <label id="number-label" for="number">Contact Number: </label>
+    <input id="number" type="number" min="9" max="10" name="number" placeholder="Enter your Contact Number"></input>
+    </label>
+    <hr>
+    <label>
+    <p>What is your gender</p>
+        <select id="dropdown">
+            <option>Male</option>
+            <option>Female</option>
+            <option>N/A</option>
+        </select>
+    </label>
+    <hr>
+    <label>
+    <p>Are you Satisfied with life?</p>
+    <label >
+    <input name="recomend" type="radio" value="Yes" Checked>Yes</input>
+    <input name="recomend" type="radio" value="not-sure">No </input> 
+    </label>
+    <hr>
+    <p>What you rate your life out of 5?(select one)</p>
+    <label><input type="checkbox" name="most-like" value="1"> 1</label>
+    <label><input type="checkbox" name="most-like" value="2"> 2</label>
+    <label><input type="checkbox" name="most-like" value="3"> 3</label>
+    <label><input type="checkbox" name="most-like" value="4"> 4</label>
+    <label><input type="checkbox" name="most-like" value="5"> 5</label><br>
+
+    <hr>
+
+    <textarea placeholder="any rants?"></textarea><br>
+
+    <button id="submit">Submit</input>
+    <hr>
+    </form>
+
+</label>
+</body>
+</html>
