@@ -8,9 +8,10 @@ img {
   body{
       background: linear-gradient(rgb(5, 164, 185), rgba(248, 60, 27, 0.842), rgb(72, 248, 139));
       box-shadow: 0 0 20px 0 rgba(66, 128, 243, 0.8);
-    background-repeat: no-repeat;
-     background-size: cover;
-  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
       text-align: center;
   }  
   
