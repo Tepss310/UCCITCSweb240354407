@@ -11,10 +11,8 @@ img {
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
-      
       text-align: center;
   }  
-  
   
   ul{
     display: inline-block;     
@@ -29,3 +27,4 @@ img {
     font-size: 30px;
     font-weight: bold;
   }
+  
