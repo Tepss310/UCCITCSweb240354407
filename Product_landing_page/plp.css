@@ -1,0 +1,127 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff8e1; /* light burrito tortilla color */
+    padding: 12px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #444;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #d35400; /* spicy burrito color */
+}
+
+/* Header */
+#header {
+    padding-top: 80px;
+    text-align: center;
+}
+
+#header-img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Video */
+#video {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Form */
+#form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    width: 240px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    background: #d35400;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: #a84300;
+}
+
+/* Menu list */
+#menu {
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+/* Footer */
+#footer {
+    background: #fff8e1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #video {
+        width: 100%;
+        height: auto;
+    }
+
+    #form {
+        width: 100%;
+        align-items: center;
+    }
+
+    #header-img {
+        max-width: 80%;
+    }
+
+    #footer {
+        font-size: 14px;
+    }
+}
