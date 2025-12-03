@@ -4,104 +4,81 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-body {
-    padding-top: 50px; 
-}
-
-#header {
-    text-align: center;
-    padding: 20px;
-}
-
-#header-img {
-    max-width: 100%;
-    height: auto;
-}
-
+/* Navigation */
 #nav-bar {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    z-index: 1000; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background: #fff8e1; /* light burrito tortilla color */
+    padding: 12px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .nav-link {
     margin: 0 15px;
     text-decoration: none;
-    color: #333;
+    color: #444;
     font-size: 18px;
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: #d35400; /* spicy burrito color */
 }
 
+/* Header */
+#header {
+    padding-top: 80px;
+    text-align: center;
+}
 
+#header-img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Main content */
 main {
     padding: 20px;
 }
 
-
-#video-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
+/* Video */
 #video {
     width: 100%;
-    max-width: 800px;
-    height: 450px;
+    max-width: 700px;
+    height: 400px;
+    display: block;
+    margin: auto;
 }
 
-
-#form-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
+/* Form */
 #form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin: 20px 0;
 }
 
-input[type="email"], input[type="submit"] {
+input {
     padding: 10px;
-    margin: 10px;
-    width: 250px;
+    width: 240px;
+    margin: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-input[type="submit"] {
-    background-color: #007bff;
+#submit {
+    background: #d35400;
     color: white;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
+#submit:hover {
+    background: #a84300;
 }
 
-
-#footer {
-    background-color: #f8f9fa;
-    padding: 20px;
+/* Menu list */
+#menu {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
 }
-
 
 #menu ul {
     list-style: none;
@@ -109,10 +86,23 @@ input[type="submit"]:hover {
 }
 
 #menu li {
-    margin: 5px 0;
+    margin: 8px 0;
+    font-size: 20px;
 }
+
+/* Footer */
+#footer {
+    background: #fff8e1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 @media (max-width: 768px) {
+
     #nav-bar {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
