@@ -4,12 +4,12 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* Navigation */
+
 #nav-bar {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #fff8e1; /* light burrito tortilla color */
+    background: #fff8e1; 
     padding: 12px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -23,10 +23,10 @@ body, html {
 }
 
 .nav-link:hover {
-    color: #d35400; /* spicy burrito color */
+    color: #d35400;
 }
 
-/* Header */
+
 #header {
     padding-top: 80px;
     text-align: center;
@@ -37,12 +37,12 @@ body, html {
     border-radius: 10px;
 }
 
-/* Main content */
+
 main {
     padding: 20px;
 }
 
-/* Video */
+
 #video {
     width: 100%;
     max-width: 700px;
@@ -51,7 +51,7 @@ main {
     margin: auto;
 }
 
-/* Form */
+
 #form {
     text-align: center;
     margin: 20px 0;
@@ -75,7 +75,7 @@ input {
     background: #a84300;
 }
 
-/* Menu list */
+
 #menu {
     text-align: center;
 }
@@ -90,7 +90,7 @@ input {
     font-size: 20px;
 }
 
-/* Footer */
+
 #footer {
     background: #fff8e1;
     padding: 20px;
